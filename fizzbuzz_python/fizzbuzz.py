@@ -8,4 +8,12 @@ def Fizzbuzz(x):
   else :
     print (x)
 
-Fizzbuzz(100)
+for x in range(101):
+  Fizzbuzz(x)
+
+# OR 
+
+# i = 0
+# while i < 100:
+#   i += 1
+#   Fizzbuzz(i)
